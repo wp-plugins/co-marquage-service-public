@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="../Stylesheets/Themes.xsl" type="text/xsl"?>
+
+<Noeud xmlns:conf="kelis.fr/conf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schemas/1.0/Noeud.xsd" ID="Themes" racine="0" version="00.00.00">
+<TitreLong>Liste des thèmes</TitreLong>
+<Coproducteur/>
+<Type>
+<Nom>Noeud</Nom>
+</Type>
+<TypeCatégorie nom="Rubrique">
+<Catégorie nom="Particuliers"/>
+</TypeCatégorie>
+<CouvertureGéographique>
+<Nom>France métropolitaine</Nom>
+</CouvertureGéographique>
+<Descendance>
+<Fils lien="N24264" positionPrésentation="1" nature="Noeud" type="Theme" class="creation-cessation">
+<TitreContextuel>Création - Cessation</TitreContextuel>
+</Fils>
+<Fils lien="N24265" positionPrésentation="2" nature="Noeud" type="Theme" class="fiscalite">
+<TitreContextuel>Fiscalité</TitreContextuel>
+</Fils>
+<Fils lien="N24266" positionPrésentation="3" nature="Noeud" type="Theme" class="gestion-finance">
+<TitreContextuel>Gestion - Finances</TitreContextuel>
+</Fils>
+<Fils lien="N24267" positionPrésentation="4" nature="Noeud" type="Theme" class="ressources-humaines">
+<TitreContextuel>Ressources humaines</TitreContextuel>
+</Fils>
+<Fils lien="N24269" positionPrésentation="5" nature="Noeud" type="Theme" class="secteurs">
+<TitreContextuel>Secteurs</TitreContextuel>
+</Fils>
+<Fils lien="N24268" positionPrésentation="6" nature="Noeud" type="Theme" class="vente-commerce">
+<TitreContextuel>Vente - Commerce</TitreContextuel>
+</Fils>
+</Descendance>
+
+<Actualite ID="R17562" seq="1" URL="http://www.service-public.fr/spip.php?page=pme/rss-actu-pro" type="Fil actualité SP">
+<Titre>Actualités</Titre>
+</Actualite>
+
+<CommentFaireSi ID="F23961" seq="1">Devenir auto-entrepreneur</CommentFaireSi>
+<CommentFaireSi ID="F23697" seq="2">Effectuer ses déclarations sociales</CommentFaireSi>
+<CommentFaireSi ID="F23571" seq="3">Ouvrir un commerce</CommentFaireSi>
+
+</Noeud>

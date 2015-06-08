@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="../Stylesheets/Themes.xsl" type="text/xsl"?>
+
+<Noeud xmlns:conf="kelis.fr/conf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schemas/1.0/Noeud.xsd" ID="Themes" racine="0" version="00.00.00">
+<TitreLong>Liste des thèmes</TitreLong>
+<Coproducteur/>
+<Type>
+<Nom>Noeud</Nom>
+</Type>
+<TypeCatégorie nom="Rubrique">
+<Catégorie nom="Association"/>
+</TypeCatégorie>
+<CouvertureGéographique>
+<Nom>France métropolitaine</Nom>
+</CouvertureGéographique>
+<Descendance>
+<Fils lien="N22175" positionPrésentation="1" nature="Noeud" type="Theme" class="obligations-administrative">
+<TitreContextuel>Obligations administratives</TitreContextuel>
+</Fils>
+<Fils lien="N22176" positionPrésentation="2" nature="Noeud" type="Theme" class="financement">
+<TitreContextuel>Financement</TitreContextuel>
+</Fils>
+<Fils lien="N22177" positionPrésentation="3" nature="Noeud" type="Theme" class="ress-humaines">
+<TitreContextuel>Ressources humaines</TitreContextuel>
+</Fils>
+<Fils lien="N22178" positionPrésentation="4" nature="Noeud" type="Theme" class="secteurs-specifiques">
+<TitreContextuel>Secteurs spécifiques</TitreContextuel>
+</Fils>
+</Descendance>
+
+<Actualite ID="R17562" seq="1" URL="http://www.service-public.fr/spip.php?page=actu-rss-association" type="Fil actualité SP">
+<Titre>Actualités</Titre>
+</Actualite>
+
+<CommentFaireSi ID="F3109" seq="1">Je crée une association</CommentFaireSi>
+<CommentFaireSi ID="F31613" seq="2">J'organise une manifestation associative</CommentFaireSi>
+
+</Noeud>
