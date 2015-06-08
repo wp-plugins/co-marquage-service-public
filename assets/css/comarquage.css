@@ -1,0 +1,168 @@
+/* Co-MARQUAGE
+--------------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------- Global */
+.comarquage * { background-repeat: no-repeat; padding:0; margin:0; font-size: 1em; border:none; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; line-height: 1.4em; font-weight: normal; }
+.comarquage { display: block; float:left; width:100%; position: relative; }
+.comarquage h1 { font-size: 2.2em; color:#232323; margin:20px 0; }
+.comarquage h2 { font-size: 1.6em; color:#232323; }
+.comarquage h3 { font-size: 1.1em; color:#232323; }
+.comarquage a { color:#287ab7; text-decoration: none; }
+.comarquage a:hover { text-decoration: underline; }
+.comarquage p { margin: 0 0 0.6em 0; }
+.comarquage ul { margin: 0.5em 0 1em 2em; display: block; }
+.comarquage li { list-style-type: disc; padding: 3px 0; list-style-position: inside; }
+
+
+/* table */
+.comarquage table.spTableau tr td, 
+.comarquage table.spTableau tr th { border: 1px solid #ccc; padding: 10px 10px; vertical-align: top; }
+.comarquage table.spTableau p { margin:0; }
+.comarquage .spTableauCelheader { background-color:#f6f6f6; }
+.comarquage .spTableauCelnormal { background-color:#fff; }
+
+.block { display: block; margin:0 0 40px 0; padding: 0 0 0 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background-color: #fff; border: 1px solid #ddd; overflow: hidden; }
+
+.block > h2 { font-size: 1.3em; padding:10px 25px; margin: 0 0 20px 0; color:#232323; background-color: #ddd; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
+.comarquage .fa { margin: 0 5px 0 0; font-size: 27px; font-family: "FontAwesome";} /* Font icon */
+
+/* ------------------------------------------ Main structure */
+#cm-content { float:left; width:65%; }
+#cm-content.nosidebar { float:left; width:100%; }
+#cm-sidebar { float:right; display: block; width:30%; }
+
+/* footer */
+.comarquage-footer { float:left; clear: both; border-top:1px solid #ddd; width:100%; padding: 20px 0; font-size:12px; }
+.comarquage-footer p,
+.comarquage-footer a { font-size:12px; }
+.comarquage-footer .logo-sp { float:right; }
+.comarquage-footer .logo-sp img { margin:0!important; }
+.comarquage-footer .mentions { float:left; }
+
+/* ------------------------------------------ Sidebar */
+#cm-sidebar { padding: 30px 0 0 0; }
+#cm-sidebar > div { }
+#cm-sidebar > div > h2 { color: #434343; background-color: #eee; }
+#cm-sidebar > div > ul,
+#cm-sidebar > div > .publication-text { margin: 0 10% 20px; }
+#cm-sidebar > div > .spCommentaire { margin: 0 10% 20px; }
+#cm-sidebar > div > ul > li { list-style-type: none; padding:8px 0; border-bottom: 1px dashed #ddd; }
+#cm-sidebar ul li h3 { font-size: 0.8em; color: #434343; }
+#cm-sidebar ul li h3 a { color:#343434; font-size:16px; text-decoration: none; line-height: 19px; font-style: normal; }
+#cm-sidebar a:hover { text-decoration: underline; }
+
+#cm-sidebar ul.spListe { margin:0; }
+#cm-sidebar ul.spListe li { padding:0; } 
+
+/* block specifique */
+#cm-sidebar #sp-service-en-ligne { background-color: #f2e7e7; border:none; }
+#cm-sidebar #sp-service-en-ligne h2 { background-color:#b90067; color:#fff; }
+
+#cm-sidebar #sp-service-en-ligne .spPublicationSEL { font-size: 0.9em; }
+#cm-sidebar #sp-service-en-ligne .spPublicationSEL a {  }
+#cm-sidebar #sp-service-en-ligne .more { background-color:#e6cccc; }
+
+/* Actualités */
+#cm-sidebar #sp-actualite {}
+#cm-sidebar #sp-actualite .spPublicationActualite { color:#888; color: #666; font-style: italic; }
+
+/* Questions Reponses */
+#cm-sidebar #sp-question-reponse .spPublicationNoeud { color:#888; }
+
+/* Auto More */
+#cm-sidebar .automore {  }
+#cm-sidebar .automore .more { width:80%; padding:0 10%; text-align: right; background-color: #eee; -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; font-size: 2em;  cursor: pointer; -webkit-transition: all 0.2s ease; -moz-transition: all  0.2s ease; -o-transition: all  0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease; }
+#cm-sidebar .automore .more:hover { padding:0 45% 0 0; width:55%; font-size: 2.5em; }
+
+/* ----------------------------------------- Content */
+/* Home menu */
+#co-home-menu { margin:30px 0!important; overflow: hidden; -webkit-border-radius: 5px;
+-moz-border-radius: 5px; border-radius: 5px; background-color: #fff; border: 1px solid #ddd; }
+#co-home-menu > li { list-style-type: none!important; padding:2% 3%!important; width:94%; margin:0; float:left; clear:both; border-bottom: 1px solid #ddd; }
+#co-home-menu > li:nth-child(odd) { background-color: #F6F6F6; }
+#co-home-menu > li > .co-home-img { display:block; float:left; margin:0!important; }
+#co-home-menu > li > h2 { margin:5px 0 0 5%; width:30%; float:left; }
+#co-home-menu > li > h2 a { font-size: 0.9em; color:#232323; font-weight: normal; line-height: 1.1em; } 
+#co-home-menu > li  a { font-size: 1em; color:#232323; font-weight: normal; }
+
+#co-home-menu .co-home-sousmenu { margin:0!important; width:50%; float:right; }
+#co-home-menu .co-home-sousmenu li { margin:0!important; padding: 0!important; list-style-type: none; float:left; }
+
+/* search */
+#co-bar { background: #F6F6F6; padding:8px 2%; position: relative; float: left; overflow: hidden; width: 96%; margin: 0 0 10px; }
+#co-search { position:relative; display: block; float:left; width:280px; border:1px solid #ddd; margin:0; -webkit-border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; background-color: #fff;  } 
+#co-search .co-searchinput { border:0px; background-color: transparent; height:40px; line-height: 40px; padding:0 10px; width:200px; }
+#co-search .co-searchbtn { position:relative; display: block; float: right; margin:0 0 0 10px; padding:5px 10px; height:40px; border-radius:0px; }
+.colorsearch { background-color: #e8e151; }
+.search-title { font-size: 1.3em; }
+
+.monsp { padding:0 20px; background-color:#fff; color:#b90067!important; display: block; float:right; line-height: 40px; height:40px; font-size: 1.2em; }
+.monsp:hover { background-color:#31579C; color:#fff!important; }
+
+.co-home { float:left; display: block; margin:0 40px 0 10px;  }
+.co-home .fa { line-height: 40px; height:40px; color:#888; }
+.co-home:hover .fa { color:#31579C; }
+
+/* Publication Main */
+#cm-content .publication-text h2 { font-size:1.7em; color:#111; border-bottom: 1px solid #ccc; margin:30px 0 10px; padding:8px; }
+#cm-content .publication-text h3 { font-size:1.3em; color:#232323; margin:20px 0 10px;}
+#cm-content .publication-text li p { margin:0; }
+
+#cm-content .block { display: block; background: #F6F6F6; border:1px solid #ddd; }
+#cm-content .block > h2 { font-size: 1.2em; padding:10px 25px; margin: 0 0 20px 0; color:#232323; background: #F8F8F8; font-weight: lighter; border-bottom: 1px solid #ddd; }
+
+#cm-content .ServiceComplementaire { padding:20px; background-color: #F6F6F6; margin: 10px 0;}  
+#cm-content .ServiceComplementaire a { font-size: 1.4em;  }
+
+/* Encart : a noter, attention, ... */
+.spANoter, .spASavoir, .spAttention { margin: 20px 0; background: #F6F6F6; padding:20px; }
+.spANoter img,
+.spASavoir img,
+.spAttention img { float:left; display: block; margin:0 15px 0 0!important; background: #F6F6F6; }
+
+/* Avertissement */
+#sp-avertissement { }
+#sp-avertissement h2 {  }
+#sp-avertissement .fa { font-size: 20px; }
+
+/* Annexe block */
+.block-annexe { display: block; margin:40px 0 20px 0; padding: 25px 30px 20px 10px;	-webkit-border-radius: 5px;	-moz-border-radius: 5px; border-radius: 5px; background: #fff; border:1px solid #ddd; }
+.block-annexe h2 { display:block; position: relative; float: left; clear:both; font-size: 1.3em!important; background: #fff!important; border:none!important; margin: -35px 0 0 15px; padding:0 20px; clear:both;}
+.block-annexe h3 { display: inline; font-size: 14px; }
+.block-annexe ul { margin: 0px 0 0 20px!important; }
+
+/* Ou s'adresser ? */
+#cm-content #sp-ou-sadresser { margin-top:40px; }
+#cm-content #sp-ou-sadresser h2 { background-color:#287ab7; color:#fff; font-size: 1.5em; }
+.spOrganisme { border-bottom: 1px solid #ddd;  }
+.spOrganisme .spOrganisme-title { cursor: pointer; padding: 10px 5%; width: 90%; }
+.spOrganisme .spOrganisme-title h3 { font-size: 1.3em; color:#232323; display: block; max-width: 90%; }
+
+.spOrganisme .spOrganisme-title .expand { background-color: transparent; width: 20px; height: 20px; display: block; position: relative; margin: 4px 12px 0 0; float:right; }
+.spOrganisme .spOrganisme-title.close .expand { background: #aaa url('../images/plus.png') no-repeat center center; background-size: 13px; }
+.spOrganisme .spOrganisme-title.open .expand { background: #232323 url('../images/minus.png') no-repeat center center; background-size: 13px; }
+.spOrganisme .spOrganisme-title:hover .expand { background-color: #287ab7; }
+.spOrganisme .spOrganisme-title:hover { background-color: #ddd; }
+.spOrganisme .spOrganisme-content { display:none; background-color: #fff; padding:15px 30px 30px; }
+
+/* pivot */
+/* .spOrganisme.local .spOrganisme-content { display:block; } */
+.spOrganisme .spGoogleMap { width:100%; height:350px; margin:0 0 10px 0;  }
+.spOrganisme .spGoogleMap img { max-width:none; }
+.spOrganisme h4 { margin:7px 0 3px; }
+.spOrganisme .note { font-size: 0.9em; display: inline-block; }
+.spOrganisme .address { font-style: normal; font-size: 1.2em; }
+.spOrganisme .ouverture .day { text-decoration: underline; }
+.spOrganisme.paris_mairie_arrondissement { display:none; } 
+
+/* pivot */
+.spPublicationTheme a, 
+.spPublicationDossier a { font-size: 17px; }
+
+
+/* ----------------------------------------- Responsive */
+@media (max-width: 767px) {
+	#cm-content, #cm-sidebar { width:100%; float:left; }
+	#cm-sidebar .block { display:none; width:100%; } 
+	#cm-sidebar #sp-service-en-ligne, #cm-sidebar #sp-avertissement { display: block; }
+}
